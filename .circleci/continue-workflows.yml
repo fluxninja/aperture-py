@@ -27,9 +27,6 @@ workflows:
   version: 2
 
   publish-release:
-    when:
-      and:
-        - equal: [main, << pipeline.git.branch >>]
     jobs:
       - publish-release:
           name: verify-publish-release
