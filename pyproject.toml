@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "aperture-py"
-version = "2.23.0"
+version = "2.22.2"
 description = "SDK to interact with the Aperture Agent"
 authors = ["FluxNinja <support@fluxninja.com>"]
 readme = "README.md"
